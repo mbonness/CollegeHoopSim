@@ -1,0 +1,340 @@
+<resources>
+
+    <string name="app_name">College HoopSim</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hoop_sim">College HoopSim</string>
+    <string name="visitor">Visitor</string>
+
+    <string-array name="teams">
+        <item>Select Team</item>
+        <item>Air Force</item>
+        <item>Akron</item>
+        <item>Alabama A&amp;M</item>
+        <item>Alabama State</item>
+        <item>Alabama</item>
+        <item>Albany</item>
+        <item>Alcorn State</item>
+        <item>American</item>
+        <item>Appalachian State</item>
+        <item>Arizona State</item>
+        <item>Arizona</item>
+        <item>Arkansas-Pine Bluff</item>
+        <item>Little Rock</item>
+        <item>Arkansas State</item>
+        <item>Arkansas</item>
+        <item>Army</item>
+        <item>Auburn</item>
+        <item>Austin Peay</item>
+        <item>Ball State</item>
+        <item>Baylor</item>
+        <item>Belmont</item>
+        <item>Bethune-Cookman</item>
+        <item>Binghamton</item>
+        <item>Boise State</item>
+        <item>Boston College</item>
+        <item>Boston University</item>
+        <item>Bowling Green</item>
+        <item>Bradley</item>
+        <item>Brown</item>
+        <item>Bucknell</item>
+        <item>Buffalo</item>
+        <item>Butler</item>
+        <item>BYU</item>
+        <item>Cal Poly</item>
+        <item>California</item>
+        <item>Campbell</item>
+        <item>Canisius</item>
+        <item>Centenary</item>
+        <item>Central Connecticut</item>
+        <item>Central Michigan</item>
+        <item>Charleston Southern</item>
+        <item>Charlotte</item>
+        <item>Chattanooga</item>
+        <item>Chicago State</item>
+        <item>Cincinnati</item>
+        <item>Clemson</item>
+        <item>Cleveland State</item>
+        <item>Coastal Carolina</item>
+        <item>Colgate</item>
+        <item>Charleston</item>
+        <item>Colorado State</item>
+        <item>Colorado</item>
+        <item>Columbia</item>
+        <item>Coppin State</item>
+        <item>Cornell</item>
+        <item>Creighton</item>
+        <item>CS Fullerton</item>
+        <item>CSU Northridge</item>
+        <item>Dartmouth</item>
+        <item>David Lipscomb</item>
+        <item>Davidson</item>
+        <item>Dayton</item>
+        <item>Delaware State</item>
+        <item>Delaware</item>
+        <item>Denver</item>
+        <item>DePaul</item>
+        <item>Detroit</item>
+        <item>Drake</item>
+        <item>Drexel</item>
+        <item>Duke</item>
+        <item>Duquesne</item>
+        <item>East Carolina</item>
+        <item>East Tennessee State</item>
+        <item>Eastern Illinois</item>
+        <item>Eastern Kentucky</item>
+        <item>Eastern Michigan</item>
+        <item>Eastern Washington</item>
+        <item>Elon</item>
+        <item>Evansville</item>
+        <item>Fairleigh Dickinson</item>
+        <item>Fairfield</item>
+        <item>Florida Atlantic</item>
+        <item>Florida A&amp;M</item>
+        <item>Florida Intl</item>
+        <item>Florida State</item>
+        <item>Florida</item>
+        <item>Fordham</item>
+        <item>Fresno State</item>
+        <item>Furman</item>
+        <item>Gardner Webb</item>
+        <item>George Washington</item>
+        <item>George Mason</item>
+        <item>Georgetown</item>
+        <item>Georgia Southern</item>
+        <item>Georgia State</item>
+        <item>Georgia Tech</item>
+        <item>Georgia</item>
+        <item>Gonzaga</item>
+        <item>Grambling</item>
+        <item>Green Bay</item>
+        <item>Hampton</item>
+        <item>Hartford</item>
+        <item>Harvard</item>
+        <item>Hawaii</item>
+        <item>High Point</item>
+        <item>Hofstra</item>
+        <item>Holy Cross</item>
+        <item>Houston</item>
+        <item>Howard</item>
+        <item>Idaho State</item>
+        <item>Idaho</item>
+        <item>UIC</item>
+        <item>Illinois State</item>
+        <item>Illinois</item>
+        <item>Indiana State</item>
+        <item>Indiana</item>
+        <item>Iona</item>
+        <item>Iowa State</item>
+        <item>Iowa</item>
+        <item>IUPUI</item>
+        <item>Jackson State</item>
+        <item>Jacksonville State</item>
+        <item>Jacksonville</item>
+        <item>James Madison</item>
+        <item>Kansas State</item>
+        <item>Kansas</item>
+        <item>Kent State</item>
+        <item>Kentucky</item>
+        <item>La Salle</item>
+        <item>Lafayette</item>
+        <item>Lamar</item>
+        <item>Lehigh</item>
+        <item>Liberty</item>
+        <item>Lipscomb</item>
+        <item>LIU Brooklyn</item>
+        <item>Long Beach State</item>
+        <item>Louisiana Tech</item>
+        <item>Louisville</item>
+        <item>Loyola Chicago</item>
+        <item>Loyola Marymount</item>
+        <item>Loyola (MD)</item>
+        <item>LSU</item>
+        <item>Maine</item>
+        <item>Manhattan</item>
+        <item>Marist</item>
+        <item>Marquette</item>
+        <item>Marshall</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>McNeese State</item>
+        <item>Maryland-Eastern Shore</item>
+        <item>Memphis</item>
+        <item>Mercer</item>
+        <item>Miami</item>
+        <item>Miami (OH)</item>
+        <item>Miami</item>
+        <item>Michigan State</item>
+        <item>Michigan</item>
+        <item>Middle Tennessee</item>
+        <item>Milwaukee</item>
+        <item>Minnesota</item>
+        <item>Mississippi Valley State</item>
+        <item>Mississippi State</item>
+        <item>Ole Miss</item>
+        <item>Missouri</item>
+        <item>Monmouth</item>
+        <item>Montana State</item>
+        <item>Montana</item>
+        <item>Morehead State</item>
+        <item>Morgan State</item>
+        <item>Morris Brown</item>
+        <item>Mt. St. Mary\'s</item>
+        <item>Murray State</item>
+        <item>NC State</item>
+        <item>Navy</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Mexico State</item>
+        <item>New Mexico</item>
+        <item>New Orleans</item>
+        <item>Niagara</item>
+        <item>Nicholls</item>
+        <item>North Carolina A&amp;T</item>
+        <item>Norfolk State</item>
+        <item>North Carolina</item>
+        <item>North Carolina Central</item>
+        <item>North Texas</item>
+        <item>Northeastern</item>
+        <item>Northern Arizona</item>
+        <item>Northern Illinois</item>
+        <item>Northern Iowa</item>
+        <item>Northwestern State</item>
+        <item>Northwestern</item>
+        <item>Notre Dame</item>
+        <item>Oakland</item>
+        <item>Ohio State</item>
+        <item>Ohio</item>
+        <item>Oklahoma State</item>
+        <item>Oklahoma</item>
+        <item>Old Dominion</item>
+        <item>Oral Roberts</item>
+        <item>Oregon State</item>
+        <item>Oregon</item>
+        <item>Pacific</item>
+        <item>Penn State</item>
+        <item>Pennsylvania</item>
+        <item>Pepperdine</item>
+        <item>Pittsburgh</item>
+        <item>Portland State</item>
+        <item>Portland</item>
+        <item>Prairie View</item>
+        <item>Princeton</item>
+        <item>Providence</item>
+        <item>Purdue</item>
+        <item>Quinnipiac</item>
+        <item>Radford</item>
+        <item>Rhode Island</item>
+        <item>Rice</item>
+        <item>Richmond</item>
+        <item>Rider</item>
+        <item>Robert Morris</item>
+        <item>Rutgers</item>
+        <item>Sacramento State</item>
+        <item>Sacred Heart</item>
+        <item>Saint Joseph\'s</item>
+        <item>Saint Louis</item>
+        <item>Saint Mary\'s</item>
+        <item>Saint Peter\'s</item>
+        <item>Sam Houston State</item>
+        <item>Samford</item>
+        <item>San Diego State</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>San Jose State</item>
+        <item>Santa Barbara</item>
+        <item>Santa Clara</item>
+        <item>Savannah State</item>
+        <item>SE Louisiana</item>
+        <item>Southeast Missouri State</item>
+        <item>Seton Hall</item>
+        <item>Siena</item>
+        <item>SMU</item>
+        <item>South Alabama</item>
+        <item>South Carolina State</item>
+        <item>South Carolina</item>
+        <item>South Dakota State</item>
+        <item>South Florida</item>
+        <item>Southeast Missouri State</item>
+        <item>Southern Illinois</item>
+        <item>Southern Miss</item>
+        <item>Southern Utah</item>
+        <item>Southern</item>
+        <item>St. Bonaventure</item>
+        <item>St. Francis (BKN)</item>
+        <item>St. Francis (PA)</item>
+        <item>St. John\'s</item>
+        <item>Stanford</item>
+        <item>Stephen F. Austin</item>
+        <item>Stetson</item>
+        <item>Stony Brook</item>
+        <item>Syracuse</item>
+        <item>TCU</item>
+        <item>Temple</item>
+        <item>Tenn-Martin</item>
+        <item>Tennessee State</item>
+        <item>Tennessee Tech</item>
+        <item>Tennessee</item>
+        <item>Texas A&amp;M</item>
+        <item>Texas A&amp;M-CC</item>
+        <item>Texas Arlington</item>
+        <item>Texas El Paso</item>
+        <item>Texas Southern</item>
+        <item>Texas State</item>
+        <item>Texas Tech</item>
+        <item>Texas</item>
+        <item>The Citadel</item>
+        <item>Toledo</item>
+        <item>Towson</item>
+        <item>Troy</item>
+        <item>Tulane</item>
+        <item>Tulsa</item>
+        <item>UAB</item>
+        <item>UC Irvine</item>
+        <item>UC Riverside</item>
+        <item>UCLA</item>
+        <item>UConn</item>
+        <item>UL Monroe</item>
+        <item>UMass</item>
+        <item>UMBC</item>
+        <item>UMKC</item>
+        <item>UNC Asheville</item>
+        <item>UNC Greensboro</item>
+        <item>UNC Wilmington</item>
+        <item>UNLV</item>
+        <item>USC</item>
+        <item>UT San Antonio</item>
+        <item>Utah State</item>
+        <item>Utah</item>
+        <item>UTEP</item>
+        <item>Valparaiso</item>
+        <item>Vanderbilt</item>
+        <item>VCU</item>
+        <item>Vermont</item>
+        <item>Villanova</item>
+        <item>Virginia Tech</item>
+        <item>Virginia</item>
+        <item>VMI</item>
+        <item>Wagner</item>
+        <item>Wake Forest</item>
+        <item>Washington State</item>
+        <item>Washington</item>
+        <item>Weber State</item>
+        <item>West Virginia</item>
+        <item>Western Carolina</item>
+        <item>Western Illinois</item>
+        <item>Western Kentucky</item>
+        <item>Western Michigan</item>
+        <item>Wichita State</item>
+        <item>William &amp; Mary</item>
+        <item>Winthrop</item>
+        <item>Wisconsin</item>
+        <item>Wofford</item>
+        <item>Wright State</item>
+        <item>Wyoming</item>
+        <item>Xavier</item>
+        <item>Yale</item>
+        <item>Youngstown State</item>
+    </string-array>
+
+</resources>
